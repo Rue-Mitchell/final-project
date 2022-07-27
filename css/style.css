@@ -4,3 +4,28 @@ body {
 h1 h2 h3 h4 {
     font-family: 'Roboto', sans-serif;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+  }
+  li {
+    float:left;
+    padding:6px;
+  }
+  li a {
+    display: block;
+    color: black;
+    font-weight:bolder;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: ghostwhite;
+  }
+  li a:visited {
+    background-color:brown;
+  }
