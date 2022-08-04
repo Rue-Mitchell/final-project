@@ -6,32 +6,25 @@ body {
 }
 h1, h2, h3, h4 {
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
-h1 {
-  text-align:center;
-}
-h2 {
-  text-align:center;
-}
-h3 {
-  text-align:center;
-}
-h4 {
-  text-align:center;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
+
 nav ul {
   background-color: #df7a1c;
 }
+
   li {
     float:left;
     padding:6px;
   }
+
   li a {
     display: block;
     color: white;
@@ -40,53 +33,90 @@ nav ul {
     padding: 10px 10px;
     text-decoration: none;
   }
-  li a:hover {
-    background-color: ghostwhite;
+
+  a:hover {
+    background-color: burlywood;
   }
-  li a:visited {
-    background-color:brown;
+
+  a:visited {
+    color: white;
   }
+
   input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
   }
+
   .container {
     border-radius: 5px;
     background-color: #df7a1c;
     color: white;
     padding: 20px;
   }
+
   header img {
     Float:left;
     width: 200px;
     padding: 20px;
   }
+
 .center {
   text-align:center;
   line-height: 1pt;
   font-weight: bolder;
-}    
+}  
+
  .tickets {
   text-decoration:none;
   font-weight: bolder;
   font-size: 20pt;
   border:1px solid black;
-  margin: 30px;
+  margin: 10px;
   padding: 20px 60px 20px 60px;
   border-radius:5px;
   background-color: #007391;
   color: white;
  } 
+
 .left {
   float: left;
   padding: 0px 20px 20px 0px;
 }
-.footer-right {
+
+.right {
   float: right;
 }
-.footer-nav ul a {
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 5px;
+}
+
+.footer-nav ul li a {
   text-decoration: none;
-  background-color: none;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-nav ul li a:visited {
+  color: white;
+}
+.footer-nav, .footer-social {
+  padding: 20px 50px 25px 50px
+}
+
+.clear {
+  clear: both;
+}
+
+.text-center  {
+  text-align: center;
+  font-size: 12px;
 }
